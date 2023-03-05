@@ -1,0 +1,670 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+
+}
+
+body{
+    cursor: url(img/cursor.png),default;
+
+}
+a:hover{
+    cursor: url(img/second\ cursor.png),default;
+
+}
+button:hover{
+    cursor: url(img/second\ cursor.png),default;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    width: 100%;
+    background-color: #444;
+    font-weight: bolder;
+    position: fixed;
+    z-index: 3;
+    
+}
+nav a {
+    text-decoration: none;
+    margin: 15px;
+    color: #efefef;
+    
+    
+}
+nav div.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding-right: 50px;
+}
+nav div.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding-left: 50px;
+
+}
+
+
+.photo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    
+}
+
+i {
+    display: block;
+    margin-left: 5px;
+}
+
+.continer {
+    padding-top: 300px;
+    text-align: center;
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh; 
+    background-size: cover;
+    background-color: white;
+
+}
+
+.continer h1 {
+    font-size: 40px;
+    font-weight: 450;
+    margin-bottom: 30px;
+}
+.continer h3 {
+    font-size: 30px; 
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.continer form {
+    background-color: white;
+    margin: auto;
+    width: 40%;
+    height: 60px;
+    display: flex;
+    padding: 8px;
+
+}
+
+form input[ type="text"]{
+    width: 90%;
+    border: none;
+    padding: 10px;
+    direction: rtl;
+}
+
+form input[ type="text"]:focus {
+    outline: none;
+}
+
+form button{
+    width: 10%;
+    background-color: #3bc710;
+    border: none;
+    color: #efefef;
+    font-size: 16px; 
+    font-weight: 400;
+    font-family: inherit;
+    
+}
+
+form button:hover{
+    background-color: #348923;
+    cursor: url(img/cursor.png),default;
+
+
+}
+
+section .sec1 .di1{
+    display: flex;
+    justify-content: space-around;
+}
+
+section .sec1{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    
+}
+section.sec1 h1 {
+    text-align: center;
+    margin: 100px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.di1 div {
+    
+    width: 270px;
+    height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.6s;
+}
+
+.di1 div:hover {
+    transform: scale(1.1);
+    
+    
+
+
+}
+
+.di1 div img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(50%);
+    
+    
+    
+}
+
+.di1 div h3 {
+    color: white;
+    font-size: 25px;
+    
+
+
+}
+
+
+
+section .secc3 {
+    padding-left: 112px;
+    padding-right: 112px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background-color: aliceblue;
+}
+
+section .secc3 .secc3d1 {
+    margin-bottom: 25px;
+}
+
+
+section .secc3 .secc3d1 h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+section .secc3 .secc3d1 button {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: rgb(26, 179, 26);
+    border-color: rgb(25, 194, 25);
+    font-size: 17px;
+}
+section .secc3 .secc3d1 button:hover {
+     color: white;
+     background-color: rgb(23, 163, 23);
+}
+
+section .secc3 .secc3d1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+section .secc3 .secc3d2 {
+    width: 270px;
+    height: 150px;
+    background-image: url("img/دراسة\ جدوى\ التطبيقات\ الإلكترونية.jpg");
+    margin-bottom: 100px;
+    transition: all 0.6s;
+
+}
+section .secc3 .secc3d2 .i22 {
+    margin-left: 8px;
+    margin-top: 105px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+
+}
+
+section .secc3 .secc3d2 h1 {
+    font-size: 20px;
+    font-weight: 200;
+    direction: rtl;
+}
+
+section .secc3 .secc3d2 p {
+    direction: rtl;
+    font-size: 13px;
+}
+
+section .secc3 .secc3d2 .pp22 {
+    color: #79ff50;
+}
+section .secc3 .secc3d2 h4 {
+    direction: rtl;
+}
+section .secc3 .secc3d2:hover {
+    transform: scale(1.1);
+}
+
+
+section .secc3 .secc3d3 {
+    width: 270px;
+    height: 150px;
+    background-image: url("img/إعداد\ وصياغة\ وتدقيق\ البحوث\ والدراسات\ التربوية.jpg");
+    margin-bottom: 100px;
+    transition: all 0.6s;
+
+}
+section .secc3 .secc3d3 .i22 {
+    margin-left: 8px;
+    margin-top: 105px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+
+}
+
+section .secc3 .secc3d3 h1 {
+    font-size: 20px;
+    font-weight: 200;
+    direction: rtl;
+}
+
+section .secc3 .secc3d3 p {
+    direction: rtl;
+    font-size: 13px;
+}
+
+section .secc3 .secc3d3 .pp22 {
+    color: #79ff50;
+}
+section .secc3 .secc3d3 h4 {
+    direction: rtl;
+}
+section .secc3 .secc3d3:hover {
+    transform: scale(1.1);
+}
+
+
+section .secc3 .secc3d4 {
+    width: 270px;
+    height: 150px;
+    background-image: url("img/11111111111111.png");
+    margin-bottom: 100px;
+    transition: all 0.6s;
+
+}
+section .secc3 .secc3d4 .i22 {
+    margin-left: 8px;
+    margin-top: 105px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+
+}
+
+section .secc3 .secc3d4 h1 {
+    font-size: 20px;
+    font-weight: 200;
+    direction: rtl;
+}
+
+section .secc3 .secc3d4 p {
+    direction: rtl;
+    font-size: 13px;
+}
+
+section .secc3 .secc3d4 .pp22 {
+    color: #79ff50;
+}
+section .secc3 .secc3d4 h4 {
+    direction: rtl;
+}
+section .secc3 .secc3d4:hover {
+    transform: scale(1.1);
+}
+section .secc3 .secc3d5 {
+    width: 270px;
+    height: 150px;
+    background-image: url("img/صياغة\ عقد\ شراكة\ وفقا\ للقانون\ السعودي\ والاماراتي.png");
+    margin-bottom: 100px;
+    transition: all 0.6s;
+
+}
+section .secc3 .secc3d5 .i22 {
+    margin-left: 8px;
+    margin-top: 105px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+
+}
+
+section .secc3 .secc3d5 h1 {
+    font-size: 20px;
+    font-weight: 200;
+    direction: rtl;
+}
+
+section .secc3 .secc3d5 p {
+    direction: rtl;
+    font-size: 13px;
+}
+
+section .secc3 .secc3d5 .pp22 {
+    color: #79ff50;
+}
+section .secc3 .secc3d5 h4 {
+    direction: rtl;
+}
+section .secc3 .secc3d5:hover {
+    transform: scale(1.1);
+}
+section .secc3 .secc3d5 {
+    width: 270px;
+    height: 150px;
+    background-image: url("img/صياغة\ عقد\ شراكة\ وفقا\ للقانون\ السعودي\ والاماراتي.png");
+    margin-bottom: 100px;
+    transition: all 0.6s;
+
+}
+section .secc3 .secc3d5 .i22 {
+    margin-left: 8px;
+    margin-top: 105px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+
+}
+
+section .secc3 .secc3d5 h1 {
+    font-size: 20px;
+    font-weight: 200;
+    direction: rtl;
+}
+
+section .secc3 .secc3d5 p {
+    direction: rtl;
+    font-size: 13px;
+}
+
+section .secc3 .secc3d5 .pp22 {
+    color: #79ff50;
+}
+section .secc3 .secc3d5 h4 {
+    direction: rtl;
+}
+section .secc3 .secc3d5:hover {
+    transform: scale(1.1);
+}
+section .secc3 .secc3d5 {
+    width: 270px;
+    height: 150px;
+    background-image: url("img/صياغة\ عقد\ شراكة\ وفقا\ للقانون\ السعودي\ والاماراتي.png");
+    margin-bottom: 100px;
+    transition: all 0.6s;
+
+}
+section .secc3 .secc3d5 .i22 {
+    margin-left: 8px;
+    margin-top: 105px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+
+}
+
+section .secc3 .secc3d5 h1 {
+    font-size: 20px;
+    font-weight: 200;
+    direction: rtl;
+}
+
+section .secc3 .secc3d5 p {
+    direction: rtl;
+    font-size: 13px;
+}
+
+section .secc3 .secc3d5 .pp22 {
+    color: #79ff50;
+}
+section .secc3 .secc3d5 h4 {
+    direction: rtl;
+}
+section .secc3 .secc3d5:hover {
+    transform: scale(1.1);
+}
+section .secc3 .secc3d6 {
+    width: 270px;
+    height: 150px;
+    background-image: url("img/تصميم\ برامج\ ارشفة\ لإدارة\ العمل\ المكتبي.jpg");
+    margin-bottom: 100px;
+    transition: all 0.6s;
+
+}
+section .secc3 .secc3d6 .i22 {
+    margin-left: 8px;
+    margin-top: 105px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+
+}
+
+section .secc3 .secc3d6 h1 {
+    font-size: 20px;
+    font-weight: 200;
+    direction: rtl;
+}
+
+section .secc3 .secc3d6 p {
+    direction: rtl;
+    font-size: 13px;
+}
+
+section .secc3 .secc3d6 .pp22 {
+    color: #79ff50;
+}
+section .secc3 .secc3d6 h4 {
+    direction: rtl;
+}
+section .secc3 .secc3d6:hover {
+    transform: scale(1.1);
+}
+
+section .secc3 .secc3d7 {
+    width: 270px;
+    height: 150px;
+    background-image: url("img/التعديل\ على\ متجرك\ فاذر\ شوبس\ father\ shops\ باحترافية\ تامة.png");
+    margin-bottom: 100px;
+    transition: all 0.6s;
+
+}
+section .secc3 .secc3d7 .i22 {
+    margin-left: 8px;
+    margin-top: 105px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+
+}
+
+section .secc3 .secc3d7 h1 {
+    font-size: 20px;
+    font-weight: 200;
+    direction: rtl;
+}
+
+section .secc3 .secc3d7 p {
+    direction: rtl;
+    font-size: 13px;
+}
+
+section .secc3 .secc3d7 .pp22 {
+    color: #79ff50;
+}
+section .secc3 .secc3d7 h4 {
+    direction: rtl;
+}
+section .secc3 .secc3d7:hover {
+    transform: scale(1.1);
+}
+
+section .secc3 .secc3d8 {
+    width: 270px;
+    height: 150px;
+    background-image: url("img/تصميم\ وبرمجة\ موقع\ ووردبريس\ احترافي.jpg");
+    margin-bottom: 100px;
+    transition: all 0.6s;
+
+}
+section .secc3 .secc3d8 .i22 {
+    margin-left: 8px;
+    margin-top: 105px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+
+}
+
+section .secc3 .secc3d8 h1 {
+    font-size: 20px;
+    font-weight: 200;
+    direction: rtl;
+}
+
+section .secc3 .secc3d8 p {
+    direction: rtl;
+    font-size: 13px;
+}
+
+section .secc3 .secc3d8 .pp22 {
+    color: #79ff50;
+}
+section .secc3 .secc3d8 h4 {
+    direction: rtl;
+}
+section .secc3 .secc3d8:hover {
+    transform: scale(1.1);
+}
+
+section .secc3 .secc3d9 {
+    width: 270px;
+    height: 150px;
+    background-image: url("img/انشاء\ متجر\ دروبشيبينغ\ احترافي\ علي\ منصة\ شوبيفاي\ Shopify.png");
+    margin-bottom: 100px;
+    transition: all 0.6s;
+
+}
+section .secc3 .secc3d9 .i22 {
+    margin-left: 8px;
+    margin-top: 105px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+
+}
+
+section .secc3 .secc3d9 h1 {
+    font-size: 20px;
+    font-weight: 200;
+    direction: rtl;
+}
+
+section .secc3 .secc3d9 p {
+    direction: rtl;
+    font-size: 13px;
+}
+
+section .secc3 .secc3d9 .pp22 {
+    color: #79ff50;
+}
+section .secc3 .secc3d9 h4 {
+    direction: rtl;
+}
+section .secc3 .secc3d9:hover {
+    transform: scale(1.1);
+}
+
+section .secc3 .bigdiv {
+    display: flex;
+    justify-content: space-between;
+}
+    
+    
+footer .hema {
+    direction: rtl;
+    margin: 70px 50px 70px 150px ;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 200;
+    
+}
+
+footer .hema a {
+    text-decoration: none;
+    color: red;
+
+}
+
+section .khalil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 70px 15px 100px;
+    background-color: aliceblue;
+    
+}
+
+section .khalil a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+section .khalil .shazly {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    direction: rtl;
+}
+
+section .khalil .shazly h4 {
+    padding: 10px;
+}
+
+section .khalil p {
+    font-size: 14px;
+}
+
+section .fainaly {
+    margin: 50px 250px;
+    
+    
+}
+
+section .fainaly .shafey {
+    display: flex;
+    justify-content: space-around;
+}
+
+section .fainaly a {
+    text-decoration: none;
+     color: black;
+
+}
+
+section .fainaly h5 {
+    font-size: small;
+    direction: rtl;
+}
+
+section .fainaly p {
+    font-size: x-small;
+    direction: rtl;
+}
